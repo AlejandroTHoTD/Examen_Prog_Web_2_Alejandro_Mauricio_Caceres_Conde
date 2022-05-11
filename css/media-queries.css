@@ -1,0 +1,150 @@
+@media screen and (max-width: 1920px) {
+  .smallcontainer h1,
+  .smallcontainer h2,
+  .smallcontainer h3 {
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 45px;
+  }
+
+  .columna h1,
+  .columna h2,
+  .columna h3 {
+    font-size: 45px;
+  }
+  .columna{
+    flex-basis: 33%;
+    min-width: 325px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .smallcontainer h1,
+  .smallcontainer h2,
+  .smallcontainer h3 {
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 65px;
+  }
+
+  .columna h1,
+  .columna h2,
+  .columna h3 {
+    font-size: 45px;
+  }
+  .columna{
+    flex-basis: 33%;
+    min-width: 325px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .smallcontainer h1,
+  .smallcontainer h2,
+  .smallcontainer h3 {
+    font-size: 45px;
+  }
+
+  .res h1{
+    font-size: 41px;
+  }
+
+  .columna h1,
+  .columna h2,
+  .columna h3 {
+    font-size: 30px;
+  }
+  .columna{
+    flex-basis: 32%;
+    min-width: 225px;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .smallcontainer h1,
+  .smallcontainer h2,
+  .smallcontainer h3 {
+    font-size: 45px;
+  }
+
+  .res h1{
+    font-size: 40px;
+  }
+
+  .columna h1,
+  .columna h2,
+  .columna h3 {
+    font-size: 30px;
+  }
+  .columna{
+    flex-basis: 40%;
+    min-width: 175px;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  .smallcontainer h1,
+  .smallcontainer h2,
+  .smallcontainer h3 {
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+  .res h1{
+    font-size: 38px;
+  }
+
+  .columna h1,
+  .columna h2,
+  .columna h3 {
+    font-size: 20px;
+  }
+  .columna{
+    flex-basis: 50%;
+    min-width: 125px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .smallcontainer h1,
+  .smallcontainer h2,
+  .smallcontainer h3 {
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  .res h1{
+    font-size: 30px;
+  }
+
+  .columna h1,
+  .columna h2,
+  .columna h3 {
+    font-size: 16px;
+  }
+  .columna{
+    flex-basis: 50%;
+    min-width: 100px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}

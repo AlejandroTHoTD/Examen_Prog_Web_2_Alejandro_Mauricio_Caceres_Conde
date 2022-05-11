@@ -1,0 +1,141 @@
+@import url(/css/media-queries.css);
+
+body {
+  font-size: 15pt;
+  background-color: antiquewhite;
+  font-family: Poppins;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.fila {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.columna {
+  flex-basis: 30%;
+  min-width: 325px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.columna h3 {
+  text-align: center;
+}
+
+.columna img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.columna a {
+  color: black;
+}
+
+.columna a:hover {
+  color: magenta;
+}
+
+.smallcontainer {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.smallcontainer h3 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+h3 {
+  justify-content: center;
+}
+
+.res h1{
+  font-size: 35px;
+}
+
+.informacion {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.resultado {
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.intentos {
+  padding: 10px;
+  background-color: #e70014;
+  color: white;
+}
+
+button {
+  background-color: #23ac3a;
+  border: 5px, 10px, 5px, 10px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #017715;
+  color: white;
+}
+
+.inicio {
+  background-color: #2c72b7;
+  border: 5px, 10px, 5px, 10px;
+  border-radius: 45%;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: 0px;
+  transition-duration: 0.4s;
+}
+
+.inicio:hover {
+  background-color: #0b99c4;
+  color: white;
+}
+
+.fila2 {
+  height: 50px;
+  position: relative;
+}
+
+.columna2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
